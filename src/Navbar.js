@@ -1,8 +1,8 @@
-import React, { useState, Component } from "react";
+import React from "react";
 import { NavLink, withRouter } from "react-router-dom";
 
 const Navbar = ({ history }) => {
-  const [isOpen, setOpen] = useState(false);
+  
 
   return (
     <div>
