@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
-import Typical from 'react-typical'
-
-
-
+import Typical from 'react-typical';
 
 class Header extends Component {
 render(){
@@ -14,7 +11,6 @@ render(){
                     <div className="col-lg-6">
                         <div className="text-container">
                             <h3><span>Want to know more about {' '}</span></h3>
-	  
 	  						<h1><Typical className="mustard"
 	  								loop={Infinity}
         							wrapper="b"	
@@ -22,12 +18,10 @@ render(){
 	  									'an institution?',1500,
 	  									'a profession?',1500,
 	  									'an industry?',1500
-	  									
 	  								]}
 	  							/></h1>
 	  						<br></br>
 	  						<p></p>
-	  						
 	  						<span className="mustard" style={{fontSize:"70px"}}>Talk</span>						
 	  						<span className="turquoise" style={{fontSize:"70px"}}>Pik</span>
 	  						<span style={{fontSize:"1.75rem", fontWeight:"700", color:"#393939"}}>{' '}can help!</span>
@@ -49,5 +43,3 @@ render(){
 }
 
 export default Header;
-
-
