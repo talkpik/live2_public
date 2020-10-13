@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, withRouter } from "react-router-dom";
 
-const Navbar = ({ history }) => {
+const NavigationMenu = ({ history }) => {
   
 
   return (
@@ -69,7 +69,7 @@ const Navbar = ({ history }) => {
   );
 };
 
-export default withRouter(Navbar);
+export default withRouter(NavigationMenu);
         
         
     

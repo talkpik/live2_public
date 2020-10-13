@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Navbar from './Navbar';
+import NavigationMenu from './NavigationMenu';
 import Header from './Header';
 import Services from './Services';
 import Seeker from './Seeker';
@@ -13,7 +13,7 @@ function App() {
   return (
 	<BrowserRouter>
     <div className="App">
-	<Navbar/>
+	<NavigationMenu/>
 	<div>
         				<Switch>
           					<Route exact path="/"><Header /></Route>
