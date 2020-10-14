@@ -25,11 +25,7 @@ render(){
                                 	<div className="media-body">Live discussion allows you to ask questions</div>
                             	</li>
                         	</ul>
-                        		<button className="btn-solid-reg popup-with-move-anim" onClick={(e) => this.setState({isOpen:true})} >REQUEST</button>
-	  							<Dialog isOpen={this.state.isOpen} onClose={(e) => this.setState({isOpen:false})}>
-									<iframe title="requestform" src="https://formfaca.de/sm/gpfL0JPSh" width="640" height="500" frameBorder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-								</Dialog>
-								<iframe title="requestform" src="https://formfaca.de/sm/gpfL0JPSh" width="400" height="1000" frameBorder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        		<iframe title="requestform" src="https://formfaca.de/sm/gpfL0JPSh" width="400" height="1000" frameBorder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 								<div class="container" id="ff-compose"></div>
 
 						</div> 
