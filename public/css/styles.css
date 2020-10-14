@@ -675,6 +675,15 @@ input[type='checkbox'] {
 	color: #00bfd8;
 }
 
+#navLink:hover,
+	#navLink:active{
+		
+		color:#f9b323;
+	}
+	#navLink{
+		color:#00bfd8;
+	}
+
 /* Dropdown Menu */
 .navbar-custom .dropdown:hover > .dropdown-menu {
 	display: block; /* this makes the dropdown menu stay open while hovering it */
@@ -1804,6 +1813,15 @@ a:hover.back-to-top {
 	.navbar-custom .nav-item .nav-link.active {
 		color: #00bfd8;
 		opacity: 1;
+	}
+
+	#navLink:hover,
+	#navLink:active{
+		color:#f9b323;
+	}
+	#navLink{
+		
+		color:#00bfd8;
 	}
 
 	.navbar-custom.top-nav-collapse {
