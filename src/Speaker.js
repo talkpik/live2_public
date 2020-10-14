@@ -10,7 +10,7 @@ render(){
             <div className="row">
                 <div className="col-lg-6">
                     <div className="image-container">
-                        <img className="img-fluid" src="images/pic4_1.png" alt="alternative"/>
+                        <img className="img-fluid" src="images/pic4.png" alt="alternative"/>
                     </div> 
                 </div> 
                 <div className="col-lg-6">
