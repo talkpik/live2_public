@@ -26,7 +26,7 @@ render(){
                             	</li>
                         	</ul>
                         		<iframe title="requestform" src="https://formfaca.de/sm/gpfL0JPSh" width="400" height="1000" frameBorder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-								<div class="container" id="ff-compose"></div>
+								
 
 						</div> 
                 	</div> 
