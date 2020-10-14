@@ -29,6 +29,9 @@ render(){
 	  							<Dialog isOpen={this.state.isOpen} onClose={(e) => this.setState({isOpen:false})}>
 									<iframe title="requestform" src="https://formfaca.de/sm/gpfL0JPSh" width="640" height="500" frameBorder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 								</Dialog>
+								<iframe title="requestform" src="https://formfaca.de/sm/gpfL0JPSh" width="400" height="1000" frameBorder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+								<div class="container" id="ff-compose"></div>
+
 						</div> 
                 	</div> 
                 	<div className="col-lg-6">
